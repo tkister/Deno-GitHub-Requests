@@ -3,7 +3,7 @@ Rest-Api-Calls for Uploading and Getting File Values from GitHub files via Deno
 
 ## Usage Example
 
-This Module is capable of Accessing public and also private repositories. If you want to access a private Repository it is nessesarcy to add an ".env"-file in the Project in which the following line is included.
+This Module is capable of Accessing public and also private repositories. GitHub requires to identify each Request, for this reason you need to add your personal Token in the Enviorment-File like the following example shows:
 ```env
 GitHubToken = ""
 ```
