@@ -23,7 +23,7 @@ run()
 ## Execute the Tests
 
 ```
-deno test --allow-net --allow-read deno.land / x / git_hub_file_requests@v0.1.0 / test.ts
+deno test --allow-net --allow-read deno.land / x / git_hub_file_requests@v0.1.0 /test.ts
 ```
    
    
