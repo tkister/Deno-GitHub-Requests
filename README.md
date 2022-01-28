@@ -7,6 +7,7 @@ This Module is capable of Accessing public and also private repositories. If you
 ```env
 GitHubToken = ""
 ```
+The Token can be generated via the following link: https://github.com/settings/tokens
 ```ts
 import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests@v0.1.2/mod.ts";
 
