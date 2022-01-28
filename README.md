@@ -4,7 +4,7 @@ Rest-Api-Calls for Uploading and Getting File Values from GitHub files via Deno
 ## Usage Example
 
 ```ts
-import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests@v0.1.0/mod.ts";
+import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests@v0.1.2/mod.ts";
 
 const GitHub = new GitRequestConfig("tkister", "Deno-GitHub-Requests", "test.json")
 
@@ -23,7 +23,7 @@ run()
 ## Execute the Tests
 
 ```
-deno test --allow-net --allow-read deno.land / x / git_hub_file_requests@v0.1.0 /test.ts
+deno run --allow-net --allow-read https://deno.land/x/git_hub_file_requests@v0.1.2/test.ts
 ```
    
    

@@ -1,4 +1,4 @@
-import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests@v0.1.0/mod.ts";
+import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests@v0.1.2/mod.ts";
 
 const GitHub = new GitRequestConfig("tkister", "Deno-GitHub-Requests", "test.json")
 
