@@ -3,6 +3,10 @@ Rest-Api-Calls for Uploading and Getting File Values from GitHub files via Deno
 
 ## Usage Example
 
+This Module is capable of Accessing public and also private repositories. If you want to access a private Repository it is nessesarcy to add an ".env"-file in the Project in which the following line is included.
+```env
+GitHubToken = ""
+```
 ```ts
 import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests@v0.1.2/mod.ts";
 
@@ -18,7 +22,6 @@ async function run() {
 run()
 ```
 
-  
   
 ## Execute the Tests
 
