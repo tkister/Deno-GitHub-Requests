@@ -10,6 +10,7 @@ GitHubToken = ""
 The Token can be generated via the following link: https://github.com/settings/tokens
 And needs to have the following Permissions:
 ![Image of the required Permission](https://github.com/tkister/Deno-GitHub-Requests/blob/main/ReadMe.jpg?raw=true)
+## Implementation in TypeScript-Project
 ```ts
 import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests@v0.1.2/mod.ts";
 
