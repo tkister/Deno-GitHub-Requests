@@ -12,7 +12,7 @@ And needs to have the following Permissions:
 ![Image of the required Permission](https://github.com/tkister/Deno-GitHub-Requests/blob/main/ReadMe.jpg?raw=true)
 ## Implementation in TypeScript-Project
 ```ts
-import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests@v0.1.2/mod.ts";
+import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests/mod.ts";
 
 const GitHub = new GitRequestConfig("tkister", "Deno-GitHub-Requests", "test.json")
 
@@ -30,7 +30,7 @@ run()
 ## Execute the Tests
 
 ```
-deno run --allow-net --allow-read https://deno.land/x/git_hub_file_requests@v0.1.2/test.ts
+deno run --allow-net --allow-read --allow-env https://deno.land/x/git_hub_file_requests/test.ts
 ```
    
    
