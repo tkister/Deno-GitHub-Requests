@@ -6,9 +6,26 @@ import {
     decode
 } from "https://deno.land/std/encoding/base64.ts"
 import "https://raw.githubusercontent.com/daychongyang/dotenv/master/load.ts";
-import type {
-    GitRequestConfig
-} from "./GitRequestConfig.ts";
+
+export class GitRequestConfig {
+    constructor(
+        private owner: string,
+        private repo: string,
+        private path: string
+    ){};
+    getOwner(): string{
+        return `${this.owner}`
+    };
+    getRepo(): string{
+        return `${this.repo}`
+    };  
+    getPath(): string{
+        return `${this.path}`
+    };    
+    getparam(): string {
+        return `Owner: ${this.getOwner()} \nRepo: ${this.getRepo()} \nPath: ${this.getPath()}`;
+    };
+};
 
 // Load of Enviromental Token-Variable [GitHubToken]
 const octokit = new Octokit({

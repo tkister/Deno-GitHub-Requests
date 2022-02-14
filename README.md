@@ -8,7 +8,7 @@ This Module is capable of Accessing public and also private repositories. GitHub
 GitHubToken = ""
 ```
 The Token can be generated via the following link: https://github.com/settings/tokens
-And needs to have the following Permissions:
+And needs to have the following Permissions:<br>
 ![Image of the required Permission](https://github.com/tkister/Deno-GitHub-Requests/blob/main/ReadMe.jpg?raw=true)
 ## Implementation in TypeScript-Project
 ```ts

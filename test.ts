@@ -1,6 +1,5 @@
-import { GitRequestConfig } from "./GitRequestConfig.ts"
 import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests/mod.ts";
-
+// import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "./mod.ts";
 // const GitHub = new GitRequestConfig("tkister", "Deno-GitHub-Requests", "test.json")
 
 // let content: string = '[{"test":"test"}, {"test2":3}]'
