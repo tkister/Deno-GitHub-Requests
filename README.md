@@ -13,7 +13,6 @@ And needs to have the following Permissions:<br>
 ## Implementation in TypeScript-Project
 ```ts
 import{ GitRequestConfig, getCurrentFileContent, updateFileContent} from "https://deno.land/x/git_hub_file_requests/mod.ts";
-import { GitRequestConfig } from "./GitRequestConfig.ts"
 
 const GitHub = new GitRequestConfig("tkister", "Deno-GitHub-Requests", "test.json")
 
